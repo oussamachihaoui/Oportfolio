@@ -3,11 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Portfolio</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'sans': ['Plus Jakarta Sans', 'system-ui', ],
+  }
+}
+ }
+      </script>
 </head>
-<body>
-    <h1 class="text-black font-bold border-2 bg-zinc">Hello</h1>
+<body class="bg-zinc-50 h-full font-sans">
+
+    <!-- navbar -->
+
+    <div class=" max-w-7xl bg-white ring-1 ring-zinc-100 shadow-x-md pt-5 mx-auto">
+
+        <div class="max-w-6xl mx-auto">
+            <nav class="  w-full flex justify-between">
+
+                <img class=" h-10 w-10 rounded-full ring-1  bg-zinc-100 object-cover " src="/assets/3.jpg" alt="">
+                <div class="w-2/4">
+                    <ul class=" flex  justify-around rounded-full bg-white/90  px-3 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5   ">
+    
+                        <li class="relative transition hover:text-teal-500 font-medium ">
+                            <a href="">Home</a>
+                            
+                        </li>
+                        <li class="transition hover:text-teal-500 font-medium">
+                            <a href="">Projects</a>
+                        </li>
+                        <li class="transition hover:text-teal-500 font-medium">
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+               
+               </nav>
+            
+               
+        
+               <!-- hero content -->
+                <main class="mt-28">
+                    <div class="grid grid-cols-3">
+        
+                        <div class="col-span-2">
+                            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 ">I'm Oussama Chihaoui an Astronaut & soulsgames lover and a professionel weebo</h1>
+                            <p class=" mt-6 space-y-7 text-base text-zinc-600 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit id atque. Expedita cum tempore, quaerat, nostrum nesciunt, itaque voluptates officia non esse maxime quisquam. Error sit sed culpa ullam.</p>
+                            <p class=" mt-6 space-y-7 text-base text-zinc-600 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit id atque. Expedita cum tempore, quaerat, nostrum nesciunt, itaque voluptates officia non esse maxime quisquam. Error sit sed culpa ullam.</p>
+                            <p class=" mt-6 space-y-7 text-base text-zinc-600 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sit id atque. Expedita cum tempore, quaerat, nostrum nesciunt, itaque voluptates officia non esse maxime quisquam. Error sit sed culpa ullam.</p>
+                        </div>
+                
+                        <div>
+                            <img class=" bg-contain rounded-full ring-1  bg-zinc-100 object-cover" src="/assets/3.jpg" alt="">
+                        </div> 
+                
+        
+               </div>
+               </main>
+            </div>
+        </div>
+        
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
